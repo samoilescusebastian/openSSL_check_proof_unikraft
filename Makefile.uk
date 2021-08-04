@@ -1,0 +1,5 @@
+$(eval $(call addlib,APPCHECK))
+
+APPCHECK_SRCS-y += $(APPCHECK_BASE)/check_proof.c
+APPCHECK_SRCS-y += $(APPCHECK_BASE)/point.c
+APPCHECK_SRCS-y += $(APPCHECK_BASE)/x25519.c
